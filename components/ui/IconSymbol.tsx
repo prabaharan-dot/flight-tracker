@@ -13,6 +13,12 @@ const MAPPING = {
   'paperplane.fill': 'send',
   'chevron.left.forwardslash.chevron.right': 'code',
   'chevron.right': 'chevron-right',
+  'flight':'flight',
+  'flight.lanf':'flight-land',
+  'flight.takeoff':'flight-takeoff',
+  'view.list':'view-list',
+  'dashboard':'dashboard',
+  'airlines':'airlines'
 } as Partial<
   Record<
     import('expo-symbols').SymbolViewProps['name'],
